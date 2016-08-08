@@ -1,6 +1,10 @@
+class SuperClass
+
+end
  class SubClass < SuperClass
    def initialize(age, roll_no)
-    super('aakanksha','descripiuonsdsd')
+    super
+
     @age = age
     @roll_no= roll_no
     end
